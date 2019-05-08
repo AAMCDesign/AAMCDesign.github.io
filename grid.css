@@ -1,0 +1,143 @@
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-image: url(/img/Background\ image.svg);
+}
+
+.name {
+    font-size: 1.6em;
+    display: grid;
+    grid-row: 1;
+    grid-column: 5/ span 4;
+    text-align: center;
+}
+/* ^ ======== OVERALL ========= ^ */
+
+/* v ==== Navigation Bar ==== v */
+.hotbar{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    align-content: center;
+}
+/* ^ ==== Navigation Bar ==== ^ */
+
+/* v ==== GRID ==== v */
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+}
+
+.grid-12 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 100px);
+}
+/* ^ ==== END GRID ==== ^ */
+
+/* v ==== IMG Scroll ==== v */
+.scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+  
+.card {
+    display: inline-block;
+    width: 1fr;
+    height: 1fr;
+    background-color: whitesmoke;
+}
+
+.image{
+    height:400px;
+    widows: 325px;
+    margin: 0px;
+}
+/* ^ ==== IMG Scroll ==== ^ */
+
+/* v ==== HOME ==== v */
+.homep{
+    grid-row: 2;
+    grid-column: 8/12;
+}
+
+#firstphoto{
+    grid-row: 1;
+    grid-column: 1/6;
+}
+/* ^ ==== HOME ==== ^ */
+
+/* v ==== Bio ==== v */
+#biob{
+    grid-row: 1;
+    grid-column: 2/11;
+}
+
+.wrapper{
+    align-content: center;
+}
+
+#footer{
+    grid-row: 6;
+    grid-column: 1/12;
+}
+/* ^ ==== Bio ==== ^ */
+
+/* v ==== Recreationals & Artwork ==== v */
+#recroom1{
+    grid-row: 1;
+    grid-column: 1/5;
+    padding-left:10px;
+}
+
+#recroom2{
+    grid-row: 1;
+    grid-column: 7/12;
+    padding-left:10px;
+}
+
+#recroom3{
+    grid-row: 4;
+    grid-column: 1/5;
+    padding-left:10px;
+}
+
+#recroom4{
+    grid-row: 4;
+    grid-column: 7/12;
+    padding-left:10px;
+}
+
+/* ^ ==== Recreationals ==== ^ */
+
+/*  v ==== RESUME ==== v */
+
+#head{
+    grid-row: 1;
+    grid-column: 1/5;
+}
+
+#lside{
+    grid-row: 4;
+    grid-column: 1/5;
+}
+
+#rside{
+    grid-row: 4;
+    grid-column: 7/12;
+}
+
+/*  ^ ==== END RESUME ==== ^ */
+
+/*  v ==== Animation Station ==== v */
+
+.hotbar:hover{
+    background-color: darkgray;
+}
+
+/* ^ ==== END Animation Station ==== ^ */
